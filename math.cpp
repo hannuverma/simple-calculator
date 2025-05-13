@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 long double addition(long double x, long double y)
 {
@@ -34,6 +35,12 @@ long double subtraction(long double x, long double y)
 int remainder(int x, int y)
 {
 	std::cout << x % y;
+	return 0;
+}
+
+long double power(long double x, long double y)
+{
+	std::cout << pow(x, y); //x^y
 	return 0;
 }
 
